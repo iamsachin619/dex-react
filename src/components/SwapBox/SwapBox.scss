@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+.swapbox{
+  background-color: white;
+  width: 85%;
+  max-width: 400px;
+  min-width:274px;
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 5px;
+
+
+}
+.settings{
+  float: right;
+  position: relative;
+  bottom:48px;
+  right: 18px;
+  font-size: 17px;
+}
+.main{
+  margin: 10px auto;
+  padding: 8px 18px;
+  max-width: 400px;
+}
+.from, .to{
+  text-align: start;
+}
+
+.rs-picker{
+  margin:10px auto;
+}
+.rs-picker-toggle-wrapper{
+  display: block;
+}
+.InputValue{
+  margin:10px auto;
+  text-align: right;
+}
+.InputValueSearch{
+  margin:10px auto;
+  text-align: left;
+}
+.fromBtn{
+  padding:5px;
+  background-color:white;
+  transition: all 0.25s;
+}
+.fromBtn:hover{
+  opacity: 0.7;
+}
+
+.SwapBtnMain{
+  margin-top: 15px;
+  width: 100%;
+  padding:10px;
+  background-color: rgb(56, 185, 56);
+  color:white;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.1s;
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.57);
+-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.57);
+}
+// .SwapBtnMain:hover{
+//   background-color: rgb(65, 221, 65);
+// }
+.SwapBtnMain:active{
+  background-color: rgb(65, 221, 65);
+}
+
+.swapTokens{
+  font-size: 22px;
+  width: 25px;
+  margin: 3px auto;
+  border-radius: 20px;
+  
+  padding: 5px;
+  svg{
+    transition: all 0.2s;
+  }
+  
+}
+.swapTokens:hover{
+  
+  svg{
+    
+    border-radius: 20px;
+    color:green;
+    transform: rotate(180deg);
+  }
+}
+
+
+.tokensContainer{
+      display: flex;
+    flex-direction: column;
+
+}
+.tokenItem:hover{
+  background-color: rgb(219, 219, 219);
+}
+.tokenItem-Inner{
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.tokenItem img{
+  position: relative;
+  bottom: 16px;
+  left:10px
+}
+.tokenItem hr{
+  margin:0px;
+}
+.tokenItem{
+  cursor: pointer;
+}
+.tokenItem-Inner{
+  strong{
+    position: relative;
+    top:5px;
+  }
+}
+
+.reloadQuote{
+  float: right;
+  color:black;
+  background-color: white;
+}
+.btnAddress{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  background-color:white;
+  padding:2px;
+}
+.LogOut{
+  background-color: rgb(255, 23, 23);
+}
+.LogOut:active{
+  background-color: rgb(255, 65, 65);
+}
